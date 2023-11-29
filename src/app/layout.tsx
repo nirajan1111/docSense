@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
 import Providers from "@/components/Providers";
 import Skeleton from "react-loading-skeleton";
+import 'simplebar-react/dist/simplebar.min.css';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
